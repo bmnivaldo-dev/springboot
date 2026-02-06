@@ -9,7 +9,7 @@ import org.springframework.test.web.servlet.client.RestTestClient;
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureRestTestClient
-public class HelloControllerITest {
+public class HelloControllerIntegrationTest {
 
   @Autowired
   private RestTestClient client;

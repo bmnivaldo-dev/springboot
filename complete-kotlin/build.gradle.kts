@@ -23,7 +23,6 @@ dependencies {
   // end::actuator[]
   implementation("org.springframework.boot:spring-boot-starter-webmvc")
   // tag::tests[]
-  testImplementation("org.springframework.boot:spring-boot-starter-test")
   testImplementation("org.springframework.boot:spring-boot-starter-webmvc-test")
   // end::tests[]
 }

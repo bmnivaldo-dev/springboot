@@ -9,7 +9,7 @@ import org.springframework.test.web.servlet.client.expectBody
 
 @SpringBootTest(webEnvironment = SpringBootTest.WebEnvironment.RANDOM_PORT)
 @AutoConfigureRestTestClient
-class HelloControllerITest(@Autowired private val client: RestTestClient) {
+class HelloControllerIntegrationTest(@Autowired private val client: RestTestClient) {
 
   @Test
   fun getHello() {
